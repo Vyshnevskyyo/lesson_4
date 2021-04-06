@@ -41,6 +41,7 @@ switch (answer(works.a00, works.a1, works.a2)) {
                 break;
             default:
                 alert('Ошибка!');
+                
         } break;
     case 2: //Первое действие, если в окне '1' ввели '2', то переходим к окну '3'.
         switch (answer(works.c00, works.c1, works.c2)) {
